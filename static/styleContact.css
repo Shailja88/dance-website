@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap');
+*{
+    margin:0;
+    box-sizing: border-box;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    margin:12px 0;
+}
+.container{
+min-height: 72vh;
+margin:45px 0;
+}
+.container h1{
+    font-family: 'Yeon Sung', cursive;
+    font-weight:bolder;
+    font-size: 35px;
+}
+.myForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+}
+.myInput{
+    width: 40%;
+    padding:9px;
+    margin:8px;
+    font-size: 16px;
+    outline:none;
+    border: 2px solid rgb(183, 100, 100);
+}
+.btn{
+    padding:10px 20px;
+    font-size: 14px;
+    color:2px solid black;
+    border-radius: 4px;
+    color: white;
+    background: rgb(179, 41, 41);
+    cursor: pointer;
+    outline: none;
+}
